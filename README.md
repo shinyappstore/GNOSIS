@@ -1,44 +1,9 @@
-## **GNOSIS: An R Shiny app supporting cancer genomics survival analysis with cBioPortal**
+![](./s436_cYU965tUXZtR3lb1XwhpHJ4AhozXNvnog1FklnyY_logo_474.jpg)
 
-We have developed GNOSIS, an R Shiny App, incorporating a range of R packages enabling users 
-to efficiently explore and visualise clinical and genomic data obtained from cBioPortal. 
-GNOSIS uses an intuitive GUI and multiple tab panels supporting a range of functionalities 
-including data upload and initial exploration, data recoding and subsetting, multiple visualisations, survival analysis, 
-statistical analysis and mutation analysis, in addition to facilitating reproducible research.
 
------
 
-### **GNOSIS Software Tool Article**
+# GNOSIS: Empowering Reproducible Cancer Genomics Survival Analysis
 
-The version of GNOSIS published in [HRB Open Research](https://hrbopenresearch.org/articles/5-8) can be found on the GNOSIS_Software_Tool_Article branch and initialised using:  
+#### Use app online: __[www.shinyappstore.com/a/GNOSIS](https://shinyappstore.com/a/GNOSIS)__
 
-``` r
-shiny::runGitHub(repo = 'GNOSIS', username = 'Lydia-King', ref="GNOSIS_Software_Tool_Article")
-```
-
-Also available at: https://lydiaking.shinyapps.io/GNOSIS/
-
-Can also be run by cloning repo on GNOSIS_Software_Tool_Article branch, navigating into repo and running server.R file. 
-
-### **GNOSIS Current Version** 
-
-This version has integrated `cBioPortalData()` functions to allow users to select and analyse cBioPortal studies,
-in addition to manual upload. 
-
-The current version of GNOSIS can be installed and initialised using:
-
-**1. runGitHub**
-
-``` r
-shiny::runGitHub(repo = 'GNOSIS', username = 'Lydia-King', ref="main")
-```
-
-**2. via Bioconductor**
-
-``` r
-if (!requireNamespace("BiocManager", quietly = TRUE)) {
-    install.packages("BiocManager")
-}
-
-BiocManager::install("GNOSIS")
-```
+GNOSIS is AN app supporting cancer genomics survival analysis with cBioPortal. The cBioPortal for Cancer Genomics provides visualization, analysis and download of large-scale cancer genomics data sets. GNOSIS is an application for incorporating a range of R packages enabling users to efficiently explore and visualise clinical and genomic data obtained from cBioPortal. GNOSIS uses an intuitive GUI and multiple tab panels supporting a range of functionalities including data upload and initial exploration, data recoding and subsetting, multiple visualisations, survival analysis, statistical analysis and mutation analysis, in addition to facilitating reproducible research. Original article: HRB Open Res. 2022 Sep 12:5:8. doi: 10.12688/hrbopenres.13476.2.
